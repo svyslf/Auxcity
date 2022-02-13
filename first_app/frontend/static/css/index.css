@@ -1,0 +1,67 @@
+html, 
+body {
+    height: 100%;
+    margin: 0;
+    padding : 0;
+    /*background-image: linear-gradient(125deg,#fdfcfb,#b8a99d,#a38b77,#7a716a);  background-size: 400%;*/
+    background-image: linear-gradient(125deg,#afb2c4,#8281aa,#7a4291fd,#56528d);  background-size: 400%;
+    animation: bganimation 15s infinite;
+
+}
+
+#main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+@keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+  
+@font-face {
+    font-family: 'Archivo Black';
+    src: url('../fonts/ArchivoBlack-Regular.ttf')  format('truetype');
+  }
+
+.coolthings {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 50px;
+    color: black;
+  }
+
+.p:hover {
+    color: black;
+}
+
+/*
+.div {
+    background-color: whitesmoke;
+    display: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: black;
+}
+
+.span:hover + div {
+    display: block;
+  }
+*/
