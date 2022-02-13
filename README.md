@@ -1,6 +1,13 @@
 # Auxcity
-A web app that allows multiple spotify users to create global playlists in real time. 
+A web app that allows multiple spotify users to create global playlists in real time.* 
 Connect with spotify and create a room with your friends - now all of you can play/queue/skip music at the same time. No need to put all music responsibility on one person!
+current functionality:
+- create and leave rooms
+- spotify api integration
+- keep track of activity within rooms
+
+
+Currently in development* 
 ![Screenshot (275)](https://user-images.githubusercontent.com/94067614/153758770-3331e9a7-59d0-4ef8-a9a5-382c1613bb52.png)
 ![Screenshot (276)](https://user-images.githubusercontent.com/94067614/153758773-3f2c55c8-05c4-47ed-8474-1bf0d1dbd108.png)
 ![Screenshot (277)](https://user-images.githubusercontent.com/94067614/153758775-e45725a2-04fc-4523-a9d5-38d1cf09f9c8.png)
